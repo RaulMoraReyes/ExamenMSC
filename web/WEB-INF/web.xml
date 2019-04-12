@@ -9,9 +9,61 @@
         <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
+    <servlet>
+        <servlet-name>Alumno</servlet-name>
+        <servlet-class>Controlador.Alumno.ServletAlumno</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Alumnos</servlet-name>
+        <servlet-class>Controlador.Alumno.ServletAlumno</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Carreras</servlet-name>
+        <servlet-class>Controlador.Carreras.ServletCarreras</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Especialidades</servlet-name>
+        <servlet-class>Controlador.Especialidades.ServletEspecialidades</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServlEstatus</servlet-name>
+        <servlet-class>Controlador.Estatus.ServletEstatus</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Estatus</servlet-name>
+        <servlet-class>Controlador.Estatus.ServletEstatus</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Modalidades</servlet-name>
+        <servlet-class>Controlador.Modalidades.ServletModalidades</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>/faces/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Alumno</servlet-name>
+        <url-pattern>/Alumno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Alumnos</servlet-name>
+        <url-pattern>/Alumnos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Carreras</servlet-name>
+        <url-pattern>/Carreras</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Especialidades</servlet-name>
+        <url-pattern>/Especialidades</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Estatus</servlet-name>
+        <url-pattern>/Estatus</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Modalidades</servlet-name>
+        <url-pattern>/Modalidades</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
